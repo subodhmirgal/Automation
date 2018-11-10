@@ -43,7 +43,7 @@ public class Registration_TC01 {
      
      }
 	
-  @Test(priority=1,enabled=false)
+  @Test(priority=1,enabled=true)
   public void registration_TC() throws Exception {
 	  Log.startTestCase(sTestCaseName);
 	  Register_account.Execute(iTestCaseRow);

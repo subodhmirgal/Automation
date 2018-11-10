@@ -1,109 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="8" passed="7">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="177608" started-at="2018-11-10T14:47:34Z" finished-at="2018-11-10T14:50:32Z">
+  <suite name="Default suite" duration-ms="20223" started-at="2018-11-10T18:23:36Z" finished-at="2018-11-10T18:23:56Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="177608" started-at="2018-11-10T14:47:34Z" finished-at="2018-11-10T14:50:32Z">
+    <test name="Default test" duration-ms="20223" started-at="2018-11-10T18:23:36Z" finished-at="2018-11-10T18:23:56Z">
       <class name="TestCases.Registration_TC01">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.Registration_TC01@11a67ec]" name="beforeMethod" is-config="true" duration-ms="12996" started-at="2018-11-10T14:50:06Z" finished-at="2018-11-10T14:50:19Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.Registration_TC01@1cea91b]" name="beforeMethod" is-config="true" duration-ms="12203" started-at="2018-11-10T18:23:36Z" finished-at="2018-11-10T18:23:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="login_TC()[pri:2, instance:TestCases.Registration_TC01@11a67ec]" name="login_TC" duration-ms="10003" started-at="2018-11-10T14:50:19Z" finished-at="2018-11-10T14:50:29Z">
+        <test-method status="PASS" signature="login_TC()[pri:2, instance:TestCases.Registration_TC01@1cea91b]" name="login_TC" duration-ms="6120" started-at="2018-11-10T18:23:48Z" finished-at="2018-11-10T18:23:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_TC -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.Registration_TC01@11a67ec]" name="afterMethod" is-config="true" duration-ms="2693" started-at="2018-11-10T14:50:29Z" finished-at="2018-11-10T14:50:32Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.Registration_TC01@1cea91b]" name="afterMethod" is-config="true" duration-ms="1825" started-at="2018-11-10T18:23:54Z" finished-at="2018-11-10T18:23:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- TestCases.Registration_TC01 -->
-      <class name="TestCases.ForgotPassword_TC06">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.ForgotPassword_TC06@1ed828d]" name="beforeMethod" is-config="true" duration-ms="13878" started-at="2018-11-10T14:48:05Z" finished-at="2018-11-10T14:48:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="forgotpassword_Scenario()[pri:1, instance:TestCases.ForgotPassword_TC06@1ed828d]" name="forgotpassword_Scenario" duration-ms="8145" started-at="2018-11-10T14:48:19Z" finished-at="2018-11-10T14:48:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgotpassword_Scenario -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.ForgotPassword_TC06@1ed828d]" name="afterMethod" is-config="true" duration-ms="2602" started-at="2018-11-10T14:48:27Z" finished-at="2018-11-10T14:48:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- TestCases.ForgotPassword_TC06 -->
-      <class name="TestCases.Negative_TC03">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.Negative_TC03@f41634]" name="beforeMethod" is-config="true" duration-ms="14418" started-at="2018-11-10T14:48:29Z" finished-at="2018-11-10T14:48:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="IncorrectPassword_Scenario()[pri:1, instance:TestCases.Negative_TC03@f41634]" name="IncorrectPassword_Scenario" duration-ms="8247" started-at="2018-11-10T14:48:44Z" finished-at="2018-11-10T14:48:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- IncorrectPassword_Scenario -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.Negative_TC03@f41634]" name="afterMethod" is-config="true" duration-ms="1494" started-at="2018-11-10T14:48:52Z" finished-at="2018-11-10T14:48:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- TestCases.Negative_TC03 -->
-      <class name="TestCases.Negative_TC02">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.Negative_TC02@daef40]" name="beforeMethod" is-config="true" duration-ms="19242" started-at="2018-11-10T14:47:34Z" finished-at="2018-11-10T14:47:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="IncorrectUserId_Scenario()[pri:1, instance:TestCases.Negative_TC02@daef40]" name="IncorrectUserId_Scenario" duration-ms="8745" started-at="2018-11-10T14:47:54Z" finished-at="2018-11-10T14:48:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- IncorrectUserId_Scenario -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.Negative_TC02@daef40]" name="afterMethod" is-config="true" duration-ms="2401" started-at="2018-11-10T14:48:02Z" finished-at="2018-11-10T14:48:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- TestCases.Negative_TC02 -->
-      <class name="TestCases.Negative_TC05">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.Negative_TC05@2b2c86]" name="beforeMethod" is-config="true" duration-ms="13226" started-at="2018-11-10T14:49:44Z" finished-at="2018-11-10T14:49:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="BlankUserId_Scenario()[pri:1, instance:TestCases.Negative_TC05@2b2c86]" name="BlankUserId_Scenario" duration-ms="7405" started-at="2018-11-10T14:49:57Z" finished-at="2018-11-10T14:50:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BlankUserId_Scenario -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.Negative_TC05@2b2c86]" name="afterMethod" is-config="true" duration-ms="1695" started-at="2018-11-10T14:50:05Z" finished-at="2018-11-10T14:50:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- TestCases.Negative_TC05 -->
-      <class name="TestCases.Negative_TC04">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.Negative_TC04@1c27452]" name="beforeMethod" is-config="true" duration-ms="13806" started-at="2018-11-10T14:49:20Z" finished-at="2018-11-10T14:49:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="BlankPassword_Scenario()[pri:1, instance:TestCases.Negative_TC04@1c27452]" name="BlankPassword_Scenario" duration-ms="7984" started-at="2018-11-10T14:49:34Z" finished-at="2018-11-10T14:49:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BlankPassword_Scenario -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.Negative_TC04@1c27452]" name="afterMethod" is-config="true" duration-ms="1683" started-at="2018-11-10T14:49:42Z" finished-at="2018-11-10T14:49:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- TestCases.Negative_TC04 -->
-      <class name="TestCases.Password_characters_TC07">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.Password_characters_TC07@10d0686]" name="beforeMethod" is-config="true" duration-ms="14104" started-at="2018-11-10T14:48:54Z" finished-at="2018-11-10T14:49:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Eightcharacterpassword_TC()[pri:1, instance:TestCases.Password_characters_TC07@10d0686]" name="Eightcharacterpassword_TC" duration-ms="10210" started-at="2018-11-10T14:49:08Z" finished-at="2018-11-10T14:49:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Eightcharacterpassword_TC -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.Password_characters_TC07@10d0686]" name="afterMethod" is-config="true" duration-ms="2503" started-at="2018-11-10T14:49:18Z" finished-at="2018-11-10T14:49:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- TestCases.Password_characters_TC07 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
